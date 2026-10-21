@@ -1,0 +1,11 @@
+name: Security Audit Greeting
+
+on:
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet
+        run: echo "audit started"
